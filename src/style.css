@@ -272,13 +272,15 @@ p {
     width: 50%;
     flex-direction: column;
     justify-content: center;
-    border-radius:0 300px 300px 0;
+    border-radius:0 30% 30% 0;
     }
   .singUpFree{
     
     color: #BD72BE;
     font-size: 40px;
     font-weight: bold; 
+    margin-top: -70px;
+    
     
 
   }
@@ -313,16 +315,15 @@ p {
     align-items: center;
     width: 50%;
     height: 100%;
-    margin-top: 60px;
-
     
+    gap:15px;
   }
   
   #buttonGoogle {
     background-color: #ffffff;
     border-radius: 30px;
-    width: 250px;
-    height: 45px;
+    width: 300px;
+    height: 60px;
     margin: 45px 0px 10px;
     border: 1px solid rgba(0, 0, 0, 0.38);
     color: #000000a6;
@@ -332,19 +333,20 @@ p {
     justify-content: center;
     flex-direction: row-reverse;
     cursor: pointer;
+    font-size: 20px;
   }
   
   #imgGoogle {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-right: 5px;
   }
   
   #buttonTwitter {
     background-color: #ffffff;
     border-radius: 30px;
-    width: 250px;
-    height: 45px;
+    width: 300px;
+    height: 60px;
     margin: 5px;
     border: 1px solid rgba(0, 0, 0, 0.38);
     color: #000000a6;
@@ -355,18 +357,19 @@ p {
     justify-content: center;
     flex-direction: row-reverse;
     cursor: pointer;
+    font-size: 20px;
   }
   
   #imgTwitter {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-right: 5px;
   }
   
   .input {
     text-align: center;
     border-radius: 5px;
-    width: 250px;
+    width: 300px;
     height: 38px;
     margin: 5px;
     border: 1px solid rgba(0, 0, 0, 0.38);
