@@ -1,0 +1,349 @@
+@media screen and (max-width: 761px) {
+ 
+/* *{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+} */
+
+#homeHeader {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    margin-right: 30px;
+  }
+  
+  #options{
+    display:flex;
+    flex-direction: row;
+  }
+
+  #editPost {
+    height: 4%;
+    width: 4%;
+    margin-left: 200px;
+    margin-right: 10px;
+  }
+
+  #deletePost {
+    height: 4%;
+    width: 4%;
+  }
+  
+  #update{
+    width: 17%;
+    height: 8%;
+    margin-top: 10px;
+    border-color: #BD72BE;
+    border-radius: 10px;
+    background-color: #ECA05F;
+    display: none;
+    font-weight: bolder;
+  }
+
+  #cancel{
+    width: 17%;
+    height: 8%;
+    margin-top: 10px;
+    border-color: #BD72BE;
+    border-radius: 10px;
+    display: none;
+    margin-left: 100px;
+  }
+  
+  #heart {
+    width: 60%;
+    height: 70%;
+  }
+  
+  #countAndHeart {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    /* margin-left: auto;
+    margin-right: 0px; */
+  }
+  
+  #under {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+  }
+  
+  #divPages {
+    display: flex;
+    justify-content: space-around;
+    width: 320px;
+    height: 35px;
+    margin-top: 15px;
+  }
+  
+  #containerPosts{
+    width: 100%;
+    height: 100%;
+    display:flex; 
+    justify-content: center;
+  }
+
+  #divPosts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    width:100%;
+    /* position: relative; */
+    overflow: scroll;
+  }
+  
+  #divHome {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 300px;
+  }
+  
+  #inputHome {
+    width: 240px;
+    height: 50px;
+    border-radius: 15px;
+    border-color: #bd72be;
+    background-color: #e8effd;
+    margin-left: 10px;
+  }
+  
+  #inputHome::placeholder {
+  padding: 6%;
+  
+  }
+
+  #divPages [img] {
+    width: 50%;
+    height: 50%;
+  }
+  
+  #imgPost {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+  }
+  
+  .postDiv {
+    margin-top: 20px;
+    /* position: absolute; */
+    margin-left: 10px;
+    width: fit-content;
+  }
+  
+  .postText {
+    background-color: #e8effd;
+    border: 1px solid #bd72be;
+    border-radius: 5px;
+    width: 270px;
+    /* overflow: hidden; */
+  }
+
+  #btnPost{
+    width: 13%;
+    height: 13%;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .postName{
+    font-weight: bolder;
+  }
+} 
+
+ /* -------MEDIA QUERIE 2 --------*/
+ @media only screen and (max-width: 2000px) and (min-width: 762px) {
+  
+  /* *{
+    border: 1px solid black;
+  } */
+
+    #globalContainer{
+    /* display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; */
+    /* overflow-y: visible; */
+  }
+
+  section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #displayHome{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  #homeHeader {
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    margin-right: 100px;
+  }
+  
+  #logoHeader{
+    width: 300px;
+    height: 100px;
+  }
+  #divPages {
+    display: flex;
+    justify-content: space-evenly;
+    width: 750px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  
+
+  #editPost {
+    height: 2%;
+    width: 2%;
+    margin-left: 200px;
+    margin-right: 10px;
+  }
+
+  #deletePost {
+    height: 2%;
+    width: 2%;
+  }
+  
+  #update{
+    width: 17%;
+    height: 8%;
+    margin-top: 10px;
+    border-color: #BD72BE;
+    border-radius: 10px;
+    background-color: #ECA05F;
+    display: none;
+    font-weight: bolder;
+  }
+
+  #cancel{
+    width: 17%;
+    height: 8%;
+    margin-top: 10px;
+    border-color: #BD72BE;
+    border-radius: 10px;
+    display: none;
+    margin-left: 550px;
+  }
+  
+  #heart {
+    width: 60%;
+    height: 70%;
+  }
+  
+  #countAndHeart {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+    width: 50px;
+    justify-content: space-evenly;
+  }
+  
+  #under {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #containerPosts{
+    width: 100%;
+    height: 100%;
+    display:flex; 
+    justify-content: center;
+    display: flex;
+  }
+
+  #divPosts {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    gap: 50px;
+    width:100%;
+    overflow: scroll;
+  }
+  
+  #divHome {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 500px;
+  }
+  
+  #inputHome {
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    border-color: #bd72be;
+    background-color: #e8effd;
+    margin-left: 10px;
+    font-size: larger;
+  }
+  
+  #inputHome::placeholder {
+  padding: 6%;
+  
+  }
+
+  #divPages [img] {
+    width: 50%;
+    height: 50%;
+  }
+  
+  #imgPost {
+    width: 6%;
+    height: 4%;
+    margin-right: 550px;
+    border-radius: 50%;
+  }
+  
+  .postDiv {
+    margin-top: 20px;
+    margin-left: 200px;
+    width: fit-content;
+  }
+  
+  .postText {
+    background-color: #e8effd;
+    border: 1px solid #bd72be;
+    border-radius: 5px;
+    width: 1000px;
+    font-size: larger;
+  }
+
+  #btnPost{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .postName{
+    font-weight: bolder;
+    font-size: x-large;
+  }
+
+  #likesCounter{
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+  } 
+  
+  #heart{
+    height: 100%;
+    width: 100%;
+  }
+ }
+
+ 
